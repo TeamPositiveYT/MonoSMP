@@ -1,0 +1,48 @@
+{
+    "format_version": 2,
+    "metadata": {
+		"authors": ["MephobiaYT"]
+	},
+    "header": {
+		"name": "§0M§8o§7n§fo§0S§7M§fP §4Utilities §l§8[§r§0BEDROCK§l§8] §r§7- Behavior Pack",
+		"description": "GUI for Utilities and Administrative tools to better enhance the Bedrock capabilities!",
+        "min_engine_version": [1, 19, 0],
+        "version": [1, 0, 24],
+        "uuid": "df64577c-2ef8-f3e5-bb8f-5bc3a90100bc"
+    },
+    "modules": [
+        {
+            "description": "Data de AdminUtils",
+            "type": "data",
+            "uuid": "fa6e90c8-c925-460f-8155-c8a60b753caa",
+            "version": [1, 0, 0]
+        },
+        {
+            "description": "Script de AdminUtils",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "8aebd580-f205-4697-bcc4-dcdb6ed67015",
+            "version": [1, 0, 0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "capabilities": [ "script_eval" ],
+    "dependencies": [
+        {
+            "uuid": "68f89eaa-dfe9-0cc5-0448-80aa4d203e9c",
+            "version": [1, 0, 24]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.8.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-gametest",
+            "version": "1.0.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}
